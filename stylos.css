@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background: white;
+}
+.header{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+nav > a{
+    color: rgb(29, 25, 20);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(192, 17, 17);
+}
+.portada {
+    width: 100%;
+  
+    display: flex;
+}
+/*stylos de materiales*/
+.materiales-titulo{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.materiales{
+    display: flex;
+    padding: 20px;
+}
+.materiales img{
+    width: 200px;
+}
+.imgonix{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.imgmarmol{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.imgranito{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.materiales p{
+    padding: 20px;
+    align-items: center;
+    text-align: justify;
+}
+.materiales h2{
+    text-align: center;
+}
+/*stylos del contenedor*/
+.texto-contenedor h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    padding: 15px;
+}
+h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+/*stylos de imagenes de css grid*/
+.galeria-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap:10px
+}
+.galeria-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.galeria-item:nth-child(4){
+    grid-column-start: span 2;
+}
+.galeria-item:nth-child(5){
+    grid-row-start: span 2;
+}
+.galeria-item:nth-child(9){
+    grid-column-start: span 2;
+}
+/*stylos de imagen remodelar*/
+.contacto{
+    display: flex;
+}
+.articulo1{
+    width: 50%;
+    height: 400px;
+}
+.articulo2{
+    background: rgb(127, 126, 196);
+    width: 50%;
+    height: 400px;
+}
+.articulo1 img{
+    width: 100%;
+    height: 400px;
+}
+.articulo2 p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
+}
+/*stylos de la etiqueta footer*/
+footer{
+    width:100% ;
+    background: black;
+    color: white;
+    
+}
+.contenedor-todofooter{
+    width: 100%;
+    max-width:1200px ;
+    
+    padding: 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+/*divicion de 3 columnas para .container-body*/
+.colum1{
+    max-width: 400px;
+}
+.h2colum1{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size:20 px;
+    color: turquoise;
+    margin-top: 20px;
+
+}
+.colum2{
+    max-width: 400px;
+}
+.h2colum2{
+    font-size: 22px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+    
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: turquoise;
+}
+.colum3{
+    max-width: 400px;
+}
+.h2colum3{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color:turquoise ;
+    
+
+}
+.container-footer{
+    width: auto;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: thistle;
+}
+span{
+    color: rgb(59, 99, 207);
+    height: 100px;
+    
+}
+
+
+
+

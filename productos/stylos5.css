@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.contenedor figure{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0,50);
+    cursor: pointer;
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11,103,123,0.6) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 80px;
+}
+.contenedor figure:hover > .capa h3{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 10px;
+}
+.contenedor figure:hover > .capa p{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+a{
+    background: hsl(195, 27%, 71%);
+    display: flex;
+}

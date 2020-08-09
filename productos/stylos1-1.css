@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://img.freepik.com/foto-gratis/textura-marmol-azul-pastel-alta-resolucion-fondo_38607-267.jpg?size=626&ext=jpg);
+    background-size: 100%;
+}
+form{
+    width: 400px;
+    background:black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+ h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    background: hsl(206, 71%, 81%);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 110, 255);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+
+}
+.boton{
+    width: 100%;
+    background: rgb(7, 28, 121);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.boton:hover{
+    background: hsl(204, 74%, 52%);
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    background: url(https://img.freepik.com/foto-gratis/textura-marmol-azul-pastel-alta-resolucion-fondo_38607-267.jpg?size=626&ext=jpg);
+    background-size: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+h2{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.galeria{
+    width: 99%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 250px;
+    height: 100px;
+    border: 1px solid rgb(20, 20, 20);
+}
+/*stylos del mural*/
+.mural{
+    display: none;
+}
+.mural:target{
+    display: block;
+    position: fixed;
+    background: url(https://img.freepik.com/foto-gratis/textura-marmol-azul-pastel-alta-resolucion-fondo_38607-267.jpg?size=626&ext=jpg);
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mural h3{
+    color: rgb(17, 14, 138);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'calibri';
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagen a{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+
+}
+.imagen img{
+    width: 700px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid rgb(9, 7, 112);
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background: rgb(157, 155, 160);
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
